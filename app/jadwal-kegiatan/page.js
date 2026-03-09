@@ -6,7 +6,6 @@ import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { Suspense } from "react";
 
-
 export default function Home() {
   return (
     <main className="flex flex-col justify-center w-[100%]">
@@ -14,7 +13,7 @@ export default function Home() {
       <div className="flex flex-row justify-center">
         <div className="lg:w-[1024px] w-[100%] flex flex-col justify-center">
           <Suspense>
-          <Header_two />
+            <Header_two />
           </Suspense>
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
@@ -37,22 +36,30 @@ export default function Home() {
                 <tr>
                   <td className="border px-4 py-2">Periode Pendaftaran</td>
                   <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center">1 Juli - 25 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">
+                    1 Juli - 25 Juli 2026
+                  </td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Seleksi</td>
                   <td className="border px-4 py-2 text-center">Sabtu</td>
-                  <td className="border px-4 py-2 text-center">27 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">27 Juli 2026</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Hasil Seleksi</td>
                   <td className="border px-4 py-2 text-center">Rabu</td>
-                  <td className="border px-4 py-2 text-center">31 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">31 Juli 2026</td>
                 </tr>
               </tbody>
             </table>
             <p>Untuk info lebih lanjut dapat mengunjungi website berikut :</p>
-            <a className="text-blue-800 hover:text-black hover:no-underline underline" target="_blank" href="https://penerimaan.untirta.ac.id/">Info Lanjut</a>
+            <a
+              className="text-blue-800 hover:text-black hover:no-underline underline"
+              target="_blank"
+              href="https://penerimaan.untirta.ac.id/"
+            >
+              Info Lanjut
+            </a>
           </section>
           <Footer />
         </div>

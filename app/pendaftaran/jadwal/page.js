@@ -8,9 +8,6 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 import { Suspense } from "react";
 
-
-
-
 export default function Home() {
   return (
     <main className="flex flex-col justify-center w-[100%]">
@@ -18,7 +15,7 @@ export default function Home() {
       <div className="flex flex-row justify-center">
         <div className="lg:w-[1024px] w-[100%] flex flex-col justify-center">
           <Suspense>
-          <Header_two />
+            <Header_two />
           </Suspense>
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
@@ -31,7 +28,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <h1 className={"text-3xl font-bold mb-16 " + montserrat.className} >
+            <h1 className={"text-3xl font-bold mb-16 " + montserrat.className}>
               Jadwal Pendaftaran
             </h1>
 
@@ -47,22 +44,24 @@ export default function Home() {
                 <tr>
                   <td className="border px-4 py-2">Periode Pendaftaran</td>
                   <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center">1 Juli - 25 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">
+                    1 Juli - 25 Juli 2026
+                  </td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Seleksi</td>
                   <td className="border px-4 py-2 text-center">Sabtu</td>
-                  <td className="border px-4 py-2 text-center">27 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">27 Juli 2026</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Hasil Seleksi</td>
                   <td className="border px-4 py-2 text-center">Rabu</td>
-                  <td className="border px-4 py-2 text-center">31 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">31 Juli 2026</td>
                 </tr>
               </tbody>
             </table>
 
-            <h1 className={"text-3xl font-bold mb-16 " + montserrat.className} >
+            <h1 className={"text-3xl font-bold mb-16 " + montserrat.className}>
               Biaya Pendaftaran
             </h1>
 
@@ -73,26 +72,31 @@ export default function Home() {
                   <td className="border px-4 py-2">Rp. 500.000,00</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2">SPP per Semester Program Reguler</td>
+                  <td className="border px-4 py-2">
+                    SPP per Semester Kelas PSPPI
+                  </td>
                   <td className="border px-4 py-2">Rp. 8.500.000,00</td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td className="border px-4 py-2">SPP per Semester Program RPL</td>
                   <td className="border px-4 py-2">Rp. 8.000.000,00</td>
-                </tr>
-                <tr>
+                </tr> */}
+                {/* <tr>
                   <td className="border px-4 py-2">Jaket Almamater, Kartu Perpustakaan</td>
                   <td className="border px-4 py-2">Rp. 550.000,00</td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
 
-
-
-            
             <p className="mb-2 font-bold">Pendaftaran:</p>
             <p>Untuk melakukan pendaftaran, silahkan tekan link berikut.</p>
-            <a className="text-blue-800 hover:text-black underline hover:no-underline" href="https://penerimaan.untirta.ac.id" target="_blank">Daftar Sekarang</a>
+            <a
+              className="text-blue-800 hover:text-black underline hover:no-underline"
+              href="https://penerimaan.untirta.ac.id"
+              target="_blank"
+            >
+              Daftar Sekarang
+            </a>
 
             {/* <p className="mb-2 font-bold">Pengumuman Hasil Seleksi:</p>
 
