@@ -78,7 +78,7 @@ export default function Home() {
                     height={1080}
                   />
                   <div className="self-center p-3 w-1/2 h-[300px]">
-                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
+                    <h1 className="text-2xl font-bold text-[#1F2937] text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -104,7 +104,7 @@ export default function Home() {
                     height={1080}
                   />
                   <div className="self-center p-3 w-1/2 h-[300px]">
-                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
+                    <h1 className="text-2xl font-bold text-[#1F2937] text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -130,7 +130,7 @@ export default function Home() {
                     height={1080}
                   />
                   <div className="self-center p-3 w-1/2 h-[300px]">
-                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
+                    <h1 className="text-2xl font-bold text-[#1F2937] text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -152,7 +152,7 @@ export default function Home() {
                     height={1080}
                   />
                   <div className="self-center p-3 w-1/2 h-[300px]">
-                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
+                    <h1 className="text-2xl font-bold text-[#1F2937] text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -178,7 +178,7 @@ export default function Home() {
                     height={1080}
                   />
                   <div className="self-center p-3 w-1/2 h-[300px]">
-                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
+                    <h1 className="text-2xl font-bold text-[#1F2937] text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -210,7 +210,7 @@ export default function Home() {
                         />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
+                    <h3 className="text-[#1F2937] text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="/profil/about">Tentang PS PPI</a>
                     </h3>
                     <p href="/profil/about" className="w-[200px]">
@@ -231,7 +231,7 @@ export default function Home() {
                         />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
+                    <h3 className="text-[#1F2937] text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="/sistem-perkuliahan">PSPPI UNTIRTA</a>
                     </h3>
                     <p href="/sistem-perkuliahan" className="w-[200px]">
@@ -246,7 +246,7 @@ export default function Home() {
                         <Image alt="" src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
+                    <h3 className="text-[#1F2937] text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="/sistem-perkuliahan">Program RPL</a>
                     </h3>
                     <p href="/sistem-perkuliahan" className="w-[200px]">Penjelasan Program Rekognisi Pembelajaran Lampau</p>
@@ -268,7 +268,7 @@ export default function Home() {
                         />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
+                    <h3 className="text-[#1F2937] text-xl mt-2 hover:text-amber-950 duration-500">
                       <a
                         target="_blank"
                         href="https://pmb.untirta.ac.id/pascasarjana-2024/"
