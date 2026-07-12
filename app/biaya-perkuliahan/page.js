@@ -42,7 +42,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">
-                    SPP per Semester Kelas PSPPI UNTIRTA
+                    SPP PSPPI UNTIRTA
                   </td>
                   <td className="border px-4 py-2">Rp. 8.500.000,00</td>
                 </tr>
