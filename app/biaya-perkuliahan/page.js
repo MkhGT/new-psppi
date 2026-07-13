@@ -44,7 +44,7 @@ export default function Home() {
                   <td className="border px-4 py-2">
                     SPP PSPPI UNTIRTA
                   </td>
-                  <td className="border px-4 py-2">Rp. 8.500.000,00</td>
+                  <td className="border px-4 py-2">Rp. 8.000.000,00</td>
                 </tr>
                 {/* <tr>
                   <td className="border px-4 py-2">SPP per Semester Program RPL</td>

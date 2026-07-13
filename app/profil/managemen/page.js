@@ -34,7 +34,7 @@ export default function Home() {
 
               <strong className="mb-2">MANAJEMEN PROGRAM STUDI PROGRAM PROFESI INSINYUR</strong>
               <p className="mb-7">
-                <strong className="mb-2">Ketua Program Studi:</strong> Dr. Eng. Ir. Teguh Firmansyah, M.T., IPM.<br />
+                <strong className="mb-2">Ketua Program Studi:</strong>Ir. Dedy Triawan Suprayog, S.T, M.Eng, PhD, IPM.<br />
                 <br />
               </p>
 
