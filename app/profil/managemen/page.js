@@ -41,7 +41,7 @@ export default function Home() {
               </strong>
               <p className="mb-7">
                 <strong className="mb-2">Ketua Program Studi:</strong> Ir. Dedy
-                Triawan Suprayog, S.T, M.Eng, PhD, IPM.
+                Triawan Suprayogi, S.T, M.Eng, PhD, IPM.
                 <br />
                 <br />
               </p>
